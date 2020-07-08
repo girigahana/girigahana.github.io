@@ -1,1 +1,0 @@
-# girigahana.github.io
