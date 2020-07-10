@@ -24,7 +24,7 @@ a:hover {
 h2
 	{
 		text-align: center;
-		font-size: 40px;
+		font-size: 28px;
 		padding-bottom: 40px;
 	}	
 h2 span
@@ -33,6 +33,21 @@ h2 span
 		font-weight: bold;
 	}
 /* end h2 */
+
+.sub-element span {
+	color: #e66012;
+}
+
+.logo {
+	width: 250px;
+	height: 350px;
+	align-items: center;
+}
+
+.histori p {
+	text-align: justify;
+	text-indent: 10%;
+}
 
 /* start about team service portfolio contact */
 #about, #team, #service,
@@ -309,7 +324,7 @@ header .social-icon li a
 
 #service img {
 	margin-right: 5px;
-	height: 500px;
+	height: 50%;
 	width: 100%;
 	border-radius: 10px;
 	/* background: url('https://ik.imagekit.io/tvlk/xpe-asset/dsIfD0QxFcgaDmB6sQchobk5CmBu9PzsWhwFXGFxJ179jzSxIGG5kZNhhHY-p7nw/xxt/experience/image/Rock-Climbing-2000x1200-jpg-1200x720-FIT-9a9ea0c418145deaf4915b0b37bd9cda.jpeg?_src=imagekit&tr=q-60,c-at_max,w-720,h-512') no-repeat; */
