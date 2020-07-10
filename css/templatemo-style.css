@@ -621,10 +621,15 @@ header .social-icon li a
 	}
 	.navbar-toggle {
 		margin-top: 15px;
+		background-color: #e66012;
 	}
 	.navbar-collapse {
 		max-height: 300px;
 		overflow-y: auto;
+	}
+	.icon-bar {
+		color: black;
+		background-color: black;
 	}
 	.navbar-default .navbar-nav li a {
 		height: 45px;
