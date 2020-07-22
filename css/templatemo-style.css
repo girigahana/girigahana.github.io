@@ -49,6 +49,14 @@ h2 span
 	text-indent: 10%;
 }
 
+.description {
+	text-align: justify;
+}
+
+.box {
+	margin-bottom: 2%;
+}
+
 /* start about team service portfolio contact */
 #about, #team, #service,
 #portfolio, #contact
@@ -324,21 +332,21 @@ header .social-icon li a
 
 #service img {
 	margin-right: 5px;
-	height: 50%;
+	height: 40%;
 	width: 100%;
 	border-radius: 10px;
 	/* background: url('https://ik.imagekit.io/tvlk/xpe-asset/dsIfD0QxFcgaDmB6sQchobk5CmBu9PzsWhwFXGFxJ179jzSxIGG5kZNhhHY-p7nw/xxt/experience/image/Rock-Climbing-2000x1200-jpg-1200x720-FIT-9a9ea0c418145deaf4915b0b37bd9cda.jpeg?_src=imagekit&tr=q-60,c-at_max,w-720,h-512') no-repeat; */
 }
 
 /* start service */
-#service .col-md-3
+#service .col-md-6
 	{
 		/* color: black; */
 		padding: 40px;
 		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
 	}
-#service .col-md-3:hover
+#service .col-md-6:hover
 	{
 		background: #505050;
 	}
@@ -631,6 +639,7 @@ header .social-icon li a
 		color: black;
 		background-color: black;
 	}
+	
 	.navbar-default .navbar-nav li a {
 		height: 45px;
 		padding-top: 5px;
@@ -655,6 +664,9 @@ header .social-icon li a
 	#home h1
 		{
 			font-size: 32px;
+		}
+		.logo {
+			align-items: center;
 		}
 
 }
